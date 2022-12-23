@@ -13,7 +13,7 @@ heroImage section css
 .navbar li{
   display: inline-block;
   min-width: 118px;
-}
+} 
 
 /* not */
 .navbar li :not(:last-child) {
