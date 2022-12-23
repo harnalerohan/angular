@@ -1,0 +1,66 @@
+/* =====================
+heroImage section css
+===================== */
+.heroImg {
+  background-color: #fcdb00;
+  padding: 60px 0px 110px 0px;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline-block;
+  min-width: 118px;
+}
+
+/* not */
+.navbar li :not(:last-child) {
+  margin-right: 15px;  
+}
+
+.navbar a:hover, .navbar a:focus, .navbar a:active {
+  font-weight: lighter;
+}
+/* TODO */
+
+.navbar a{
+  font-weight: bold;
+  font-size: 22px;
+  color: #010101;
+  padding: 0 18px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.inspire {
+  margin-top: 70px;
+}
+
+.iconList {
+  list-style: none;
+}
+
+.iconList li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.iconList a i {
+  font-size: 40px;
+  color: #010101;
+}
+
+.iPad {
+  margin-left: 18px;
+}
+
+/* ===============Feature section css================== */
+.features{
+  padding: 120px 0px 170px 0px;
+}
+
+.mb_16 {
+  margin-bottom: 16px;
+}
